@@ -1,4 +1,4 @@
-# typescript-for-asgardians
+# Typescript for Asgardians
 Tech talk about advanced techniques for Typescript
 
 ## Slides
