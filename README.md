@@ -2,4 +2,4 @@
 Tech talk about advanced techniques for Typescript
 
 ## Slides
-https://slides.com/charliesbot/deck/fullscreen
+https://slides.com/charliesbot/typescript-for-asgardians/fullscreen
