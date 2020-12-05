@@ -12,6 +12,7 @@ let aNumber = 1;
 let aBoolean = true;
 
 // 2) What are the inferred types of these const variables?
+
 const anotherString = "I'm a string";
 const anotherNumber = 1;
 const anotherBoolean = true;
@@ -20,3 +21,7 @@ const anotherBoolean = true;
 type True = true;
 type False = false;
 // type Bool = ????
+
+// Template Literal Types
+type Directions = "top" | 'right' | 'bottom' | 'left';
+type Padding = `padding-${Directions}`;

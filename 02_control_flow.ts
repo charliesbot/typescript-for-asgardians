@@ -19,4 +19,10 @@ interface CreditCard {
   securityCode: string;
 }
 
-const processPayment = args => {};
+const payWithCash = (payment: Cash) => {};
+const payWithPaypal = (payment: PayPal) => {};
+const payWithCC = (payment: CreditCard) => {};
+
+type Payment = Cash | PayPal | CreditCard;
+
+const processPayment = (payment: Payment) => {};
